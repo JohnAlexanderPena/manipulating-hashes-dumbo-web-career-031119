@@ -16,6 +16,9 @@ def first_challenge
       data.each do |att,value|
         if att == favorite_icecream_flavors && value.include?(strawberry)
           value.delete("strawberry")
+        end
+      end 
+    end
           
         
   
