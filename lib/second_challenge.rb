@@ -7,5 +7,5 @@ def second_challenge
   }
  
 new_list = [] 
-new_list  << groceries.values.merge
+new_list  << groceries.values
 end
