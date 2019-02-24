@@ -5,9 +5,8 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-
-  groceries.each
-
-  
-
+ 
+new_list = [] 
+groceries.values >> new_list
+new_list.join()
 end
