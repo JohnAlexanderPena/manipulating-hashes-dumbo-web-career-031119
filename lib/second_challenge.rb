@@ -7,6 +7,6 @@ def second_challenge
   }
  
 new_list = [] 
-groceries.values >> new_list
+new_list  << groceries.values
 new_list.join()
 end
